@@ -1,0 +1,24 @@
+# Core dependencies for FinalLasClassifier
+
+# Deep Learning Framework
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Numerical Computing
+numpy>=1.21.0
+
+# Point Cloud Processing
+laspy>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Optional but recommended for better performance
+# Uncomment if you want GPU support (requires CUDA toolkit)
+# torch>=1.9.0+cu111  # For CUDA 11.1
+# torchvision>=0.10.0+cu111
+
+# Note: Install PyTorch with CUDA support from https://pytorch.org/get-started/locally/
+# Example for CUDA 11.8:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
